@@ -3,19 +3,6 @@ import xgboost
 
 from utils.handle_user_answer import generate_user_answer
 
-"""
-This script launches a Streamlit web application that acts as a chatbot for diabetes risk assessment.
-It loads a pre-trained XGBoost classification model and interacts with users via a chat interface.
-Users are prompted to provide the following health data: hba1c, glucose_postprandial, glucose_fasting,
-family_history_diabetes, and age. The chatbot processes user input, predicts diabetes risk using the model,
-and returns the result in the chat. The conversation history is maintained using Streamlit's session state.
-Dependencies:
-- streamlit
-- xgboost
-- utils.handle_user_answer.generate_user_answer
-Usage:
-Run the script with Streamlit to start the chatbot interface for diabetes risk checking.
-"""
 
 model = xgboost.XGBClassifier()
 model.load_model("model/models/xgboost_model_v01.json")
