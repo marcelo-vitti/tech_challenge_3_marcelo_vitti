@@ -46,6 +46,8 @@ This repository provides an end-to-end solution for predicting diabetes using he
 
 ## Usage
 
+You can access the app on this link: https://techchallenge3marcelovitti-ehahkzcbkrisneuem9zx4h.streamlit.app/ and jump directly to the step 5 if you don't want to run the code on your machine.
+
 ### 1. Create virtual environment and Install Dependencies
 
 ```sh
